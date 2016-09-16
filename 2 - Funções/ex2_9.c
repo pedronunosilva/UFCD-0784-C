@@ -22,7 +22,7 @@ int main()
     scanf("%f %f", &x1, &x2);
 
     /* mostrar os valores */
-    printf("A media é %0.3f \n", Soma( x1, x2 ) );
+    printf("A soma e %0.3f \n", Soma( x1, x2 ) );
     
     return 0;
 }
