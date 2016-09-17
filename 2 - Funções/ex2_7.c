@@ -7,7 +7,9 @@
 
 void linha (int num, char c) {
     
-    for(int i=0; i<=20; i++ ) {
+    int i=0;
+    
+    for(i=0; i<=20; i++ ) {
         putchar(c);
     }
     putchar('\n');
@@ -15,12 +17,13 @@ void linha (int num, char c) {
 
 int main()
 {
+    int i=0;
     
     linha(20, '-');
     printf("Números de 1 a 5 \n");
     linha(20, '-');
     
-    for(int i=1; i<=5; i++ ) {
+    for(i=1; i<=5; i++ ) {
         printf("%d \n", i);
     }
     

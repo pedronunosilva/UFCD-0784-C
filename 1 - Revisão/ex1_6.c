@@ -8,11 +8,11 @@
 int main()
 {
     /* declaração de variáveis */
-    int soma=0;
+    int soma=0, i=0;
     
     
     /* ciclo */
-    for(int i=1; i<=4; i++){
+    for(i=1; i<=4; i++){
     
         soma+=i;
     
@@ -20,4 +20,6 @@ int main()
     
     /* mostrar os valores */
     printf("Soma dos primeiros 4 números: %d \n", soma);
+    
+    return 0;
 }
