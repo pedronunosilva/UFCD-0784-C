@@ -22,9 +22,9 @@ void Troca () {
 
 int Somatorio () {
     
-    int sumatorio = 0;
+    int sumatorio = 0, i=0;
     
-    for (int i=menor; i<= maior; i++){
+    for (i=menor; i<= maior; i++){
         
         sumatorio = sumatorio + i;
     }

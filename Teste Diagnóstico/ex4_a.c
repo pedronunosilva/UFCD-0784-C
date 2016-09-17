@@ -7,7 +7,7 @@
 
 int main () {
 
-    int num1 =0, num2 = 0, sumatorio = 0, maior = 0, menor = 0;
+    int num1 =0, num2 = 0, sumatorio = 0, maior = 0, menor = 0, i=0;
     
     printf("Indique o primeiro valor: ");
     scanf("%d", &num1);
@@ -23,7 +23,7 @@ int main () {
         menor = num1;
     }
 
-    for (int i=menor; i<= maior; i++){
+    for (i=menor; i<= maior; i++){
         
         sumatorio = sumatorio + i;
     }
