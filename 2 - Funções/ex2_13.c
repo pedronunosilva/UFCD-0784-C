@@ -3,7 +3,7 @@
 //  CICCOPN C
 //
 
-#include<stdio.h>
+#include <stdio.h>
 
 int factorial (int numero) {
     if (numero==0 || numero==1)
@@ -30,4 +30,6 @@ int main()
     
     /* mostrar os valores */
     printf("O factorial de %d é %d \n", numero, factorial( numero ) );
+    
+    return 0;
 }
