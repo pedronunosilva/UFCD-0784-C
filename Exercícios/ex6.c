@@ -34,9 +34,9 @@ int main()
     
     } while (tentativa < MAXTENTATIVAS && num != ngerado);
    
-    if (tentativa == MAXTENTATIVAS) {
+    if (tentativa == MAXTENTATIVAS && num != ngerado) {
         
-        printf("Perdeu\n");
+        printf("Perdeu - o valor era %d\n", ngerado);
     
     } else {
     
