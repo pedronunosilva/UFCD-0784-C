@@ -27,7 +27,7 @@ int main( int argc, char *argv[] )
     
     posicao = procurarChar(c, str, tamanho);
     
-    if(posicao > tamanho) {
+    if(posicao >= tamanho) {
         
         printf("Caracter nao encontrado\n");
         
@@ -45,7 +45,7 @@ int procurarChar (char c, char *string, int tamanho){
     int pos = 0;
     
     
-    while (c != string[pos] && pos <= tamanho ) {
+    while (c != string[pos] && string[pos]!='\0' ) {
     
         pos++;
         
