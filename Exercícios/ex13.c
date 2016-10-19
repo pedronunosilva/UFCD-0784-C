@@ -10,7 +10,7 @@
 
 int procurarChar (char c, char *string, int tamanho);
 
-int main( int argc, char *argv[] )
+int main()
 {
     
     /* declaração de variáveis */
