@@ -52,5 +52,5 @@ int procurarChar (char c, char *string, int tamanho){
     }
     
     return pos;
-
+    
 }
