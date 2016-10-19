@@ -70,20 +70,19 @@ void cifrar (char *msg, int tamanho){
     char *mensagem = NULL;
 
     mensagem = (char*) malloc (sizeof(char) * tamanho);
+    
+    printf("Mensagem original: '%s'\n", msg);
 
     int posicao = 0, i = 0;
     
-    printf("\n\n || %s || \n\n", msg);
-    
     for (i = 0; i <= tamanho; i++){
-    
     
         posicao = procurarChar(msg[i], input, 53);
         
         mensagem[i] = output[posicao];
     }
     
-    printf("A mensagem codificada e: '%s'\n", mensagem);
+    printf("ROT13 da mensagem: '%s'\n", mensagem);
 
 }
 
