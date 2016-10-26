@@ -7,6 +7,8 @@
 
 void imprimirVector (int *vector, int tamanho);
 
+void somar (int *v1, int *v2, int *v3, int tamanho);
+
 
 int main()
 {
@@ -41,6 +43,17 @@ void imprimirVector (int *vector, int tamanho){
     for(i = 0; i < tamanho; i++){
         
         printf("%3d ", vector[i]);
+    }
+}
+
+
+void somar (int *v1, int *v2, int *v3, int tamanho){
+    
+    int i = 0;
+    
+    for(i = 0; i < tamanho; i++){
+        
+        v3[i] = v1[i] + v2[i];
     }
 }
 
